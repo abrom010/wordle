@@ -1,0 +1,47 @@
+:root {
+	--tile-size: 100px;
+}
+
+html {
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.tile-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tile {
+	width: var(--tile-size);
+	height: var(--tile-size);
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.tile > p {
+	font-size: 100px;
+}
+
