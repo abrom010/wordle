@@ -111,8 +111,11 @@ function handleKeyPress(key) {
 function getMyRandomWord() {
 	let index = Math.floor(Math.random() * myWords.length);
 	let out = myWords[index];
-	console.log(out);
 	return out;
+}
+
+function cheat() {
+	console.log(winner);
 }
 
 function htmlForEach(collection, procedure) {
