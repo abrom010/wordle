@@ -1,34 +1,10 @@
 let myWords =
 	[
-		"potat",
-		"blobs",
-		"aloha",
-		"uvita",
-		"yello",
-		"gorby",
-		"dahec",
-		"wowie",
-		"poopr",
-		"heggg",
-		"utoob",
-		"poppr",
-		"mello",
-		"sussy",
-		"tilla",
-		"dided",
-		"peesh",
-		"ohnor",
-		"eggie",
-		"pissa",
-		"ollie",
-		"pleek",
-		"ohayo"
 	];
 
 let englishWords =
 	[
 		"AARON",
-		"SARAH",
 		"AAHED",
 		"AALII",
 		"AARGH",
